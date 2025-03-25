@@ -7,9 +7,7 @@ int main(){
 
     switch(action){
         case 1:
-            //the user chooses CSE
             printf("You Chose CSE!\n");
-            printf("Your are a computer engineer!");
             break;
         case 2:
             //the user chooses AIML

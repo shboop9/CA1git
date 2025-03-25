@@ -13,4 +13,8 @@ int main(){
         printf("Your Chose AIML!");
         break;
     }
+    case 3:
+        printf("Your Chose ECE!");
+        break;
+    }
 }

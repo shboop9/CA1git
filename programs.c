@@ -9,4 +9,8 @@ int main(){
     case 1:
         printf("You Chose CSE!");
         break;
+    case 2:
+        printf("Your Chose AIML!");
+        break;
+    }
 }

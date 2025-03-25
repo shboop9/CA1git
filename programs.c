@@ -6,11 +6,26 @@ int main(){
     scanf("%d", &action);
 
     switch(action){
-    case 1:
-        printf("You Chose CSE!");
-        break;
-    case 2:
-        printf("Your Chose AIML!");
-        break;
+        case 1:
+            //the user chooses CSE
+            printf("You Chose CSE!\n");
+            printf("Your are a computer engineer!");
+            break;
+        case 2:
+            //the user chooses AIML
+            printf("Your Chose AIML!\n");
+            printf("Your are an AI engineer!");
+            break;
+
+        case 3:
+            printf("Your Chose ECE!");
+            break;
+
+        case 4:
+            printf("Your Chose CIVIL!");
+            break;
+
+        default:
+            printf("Invalid Input!");
     }
 }
